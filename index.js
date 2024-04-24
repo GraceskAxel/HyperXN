@@ -1,9 +1,9 @@
 //
-// Heliactyl 12.1, Codename Kyiv
+// HyperXN, Codename Kyiv
 // 
-//  * Copyright Sryden UK 2022
+//  * Copyright HyperXN Company 2024
 //  * Please read the "License" file
-//  * #SupportUkraine
+//  * #India
 //
 
 "use strict";
