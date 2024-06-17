@@ -1,10 +1,10 @@
 
-![Heliactyl](https://cdn.discordapp.com/attachments/881207010417315861/949706607497977976/heliactyl.png)
+HyperXN
 
 <hr>
 
-# Heliactyl • The modern client panel for Pterodactyl
-We're back on GitHub, new Heliactyl versions are releasing soon.
+# Hyperxn • The modern client panel for Pterodactyl
+We're back on GitHub with a new start. (A fork of Heliactyl)
 
 All features:
 - Resource Management (Use it to create servers, etc)
@@ -22,26 +22,22 @@ All features:
 
 # Warning
 
-We cannot force you to keep the "Powered by Heliactyl" in the footer, but please consider keeping it. It helps getting more visibility to the project and so getting better. We won't do technical support for installations without the notice in the footer. We may DMCA the website in certain conditions.
+We cannot force you to keep the "Powered by HyperXN" in the footer, but please consider keeping it. It helps getting more visibility to the project and so getting better. We won't do technical support for installations without the notice in the footer. We may DMCA the website in certain conditions.
 Please do keep the footer though.
-
-# Discord Server
-
-[Click here to join](https://discord.gg/CSbcjeZgKM)
 
 <hr>
 
 # Install Guide
 
-Warning: You need Pterodactyl already set up on a domain for Heliactyl to work
+Warning: You need Pterodactyl already set up on a domain for HyperXN to work
 1. Upload the file above onto a Pterodactyl NodeJS server [Download the egg from Parkervcp's GitHub Repository](https://github.com/parkervcp/eggs/tree/master/bots/discord/discord.js)
 2. Unarchive the file and set the server to use NodeJS 16
 3. Configure settings.json (specifically panel domain/apikey and discord auth settings for it to work)
 4. Start the server (Ignore the 2 strange errors that might come up)
-5. Login to your DNS manager, point the domain you want your dashboard to be hosted on to your VPS IP address. (Example: dashboard.domain.com 192.168.0.1)
+5. Login to your DNS manager, point the domain you want your dashboard to be hosted on to your VPS IP address. (Example: client.hyperxn.xyz ----> 192.168.0.1 (VPS IP)
 6. Run `apt install nginx && apt install certbot` on the vps
 7. Run `ufw allow 80` and `ufw allow 443` on the vps
-8. Run `certbot certonly -d <Your Heliactyl Domain>` then do 1 and put your email
+8. Run `certbot certonly -d <Your HyperXN Domain>` then do 1 and put your email
 9. Run `nano /etc/nginx/sites-enabled/heliactyl.conf`
 10. Paste the configuration at the bottom of this and replace with the IP of the pterodactyl server including the port and with the domain you want your dashboard to be hosted on.
 11. Run `systemctl restart nginx` and try open your domain.
@@ -87,8 +83,6 @@ Enabling other eggs (Minecraft Bedrock):
 3. Get the egg ID of both of them and set it as the ID in settings.json
 
 # Updating 
-
-From Heliactyl v11 or Dashactyl v0.4 to Heliactyl v12:
 1. Store certain things such as your api keys, discord auth settings, etc in a .txt file
 2. Download database.sqlite 
 3. Delete all files off the server (or delete and remake the folder if done in ssh)
@@ -101,10 +95,5 @@ Move to a newer Heliactyl v12 release:
 3. Upload the latest Heliactyl v12 release and unzip it
 4. Remove settings.json and database.sqlite
 5. Unzip the zip with your old settings.json and database.sqlite
-
-# Legacy Deprecation Notice
-
-Heliactyl v6, v7, v8, v9, v10, v11 is now deprecated as listed in our Discord and should not be used.
-Please update to Heliactyl v12.
 
 
