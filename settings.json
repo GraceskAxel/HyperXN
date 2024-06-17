@@ -6,7 +6,7 @@
     "secret": "Default Secret (Change this)"
   },
   "pterodactyl": {
-    "domain": "https://example.sryden.cloud",
+    "domain": "https://example.hyperxn.xyz",
     "key": "Example key (You should give the key all permissions)"
   },
   "linkvertise": {
@@ -66,7 +66,7 @@
         "_comment": "Go to https://discord.dev/ and create an application to set these up.",
         "id": "ID",
         "secret": "Secret",
-        "link": "http://example.sryden.cloud:8000",
+        "link": "http://example.hyperxn.xyz:8000",
         "callbackpath": "/callback",
         "prompt": true,
         "ip": {
