@@ -18,7 +18,7 @@ All features:
   
 # Note:
 
-We cannot force you to add "Powered by HyperXN and Heliactyl" but if you can, please add it so that we can get support!
+You must keep **Powered by HyperXN** in the footer in order to use the dashboard!
 
 <hr>
 
@@ -33,7 +33,7 @@ Warning: You must have Pterodactyl Game Panel already setuped along with a domai
 6. Run `apt install nginx && apt install certbot` on the vps!
 7. Run `ufw allow 80` and `ufw allow 443` on the vps!
 8. Run `certbot certonly -d <Your HyperXN Domain>` then do 1 and put your email
-9. Run `nano /etc/nginx/sites-enabled/heliactyl.conf`
+9. Run `nano /etc/nginx/sites-enabled/hyperxnv1.conf`
 10. Paste the configuration at the bottom of this and replace with the IP of the pterodactyl server including the port and with the domain you want your dashboard to be hosted on.
 11. Run `systemctl restart nginx` and try open your domain.
 
@@ -69,5 +69,10 @@ location / {
 ```
 
 <hr>
+
+# THIS IS A FORK OF HELIACTYL. (A Client which is dead and is the worst) | This was never planned to be released and won't work. This is just a joke! DO NOT waste your time trying installing it. It won't install and instead will show 1,000 of errors! Thank You and have a nice day!
+
+Best,
+Gracesk.
 
 
