@@ -70,7 +70,7 @@ location / {
 
 <hr>
 
-### THIS IS A FORK OF HELIACTYL. (A Client which is dead and is the worst) | This was never planned to be released and won't work. This is just a joke! DO NOT waste your time trying installing it. It won't install and instead will show 1,000 of errors! Thank You and have a nice day!
+### THIS IS A FORK OF HELIACTYL. (A Client which is dead and is the worst) | This was never planned to be released and won't work. This is just a joke! DO NOT waste your time trying installing it. It won't install and instead will show up 1,000 of errors in your VPS! If you're getting bored and STILL WANT TO WASTE YOUR time, please note that you must have 64 GB+ Ram VPS in order to WASTE your time or else it will destroy your VPS. Do not blame me after your VPS is destroyed forever! Thank You and have a nice day!
 
 Best,
 <br>
