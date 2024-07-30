@@ -70,9 +70,10 @@ location / {
 
 <hr>
 
-# THIS IS A FORK OF HELIACTYL. (A Client which is dead and is the worst) | This was never planned to be released and won't work. This is just a joke! DO NOT waste your time trying installing it. It won't install and instead will show 1,000 of errors! Thank You and have a nice day!
+### THIS IS A FORK OF HELIACTYL. (A Client which is dead and is the worst) | This was never planned to be released and won't work. This is just a joke! DO NOT waste your time trying installing it. It won't install and instead will show 1,000 of errors! Thank You and have a nice day!
 
 Best,
+<br>
 Gracesk.
 
 
